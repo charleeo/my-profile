@@ -13,9 +13,10 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../../images/snow.jpg");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../images/snow.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../../images/me.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../images/me.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .home_name {
@@ -93,10 +94,11 @@
 
 .nav {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  top: -1px;
+  left: -10px;
+  width: 100%;
   opacity: 0.98;
+  background: #181010;
   visibility: hidden;
 }
 
@@ -152,9 +154,10 @@
 
 .nav .menu-nav_link {
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  padding: 2rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
   font-weight: 300px;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -189,11 +192,13 @@
 }
 
 .about_bio-image {
-  height: 50vh;
+  min-height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../../images/snow.jpg");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../images/snow.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../../images/me.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../images/me.jpg");
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -223,7 +228,7 @@
 }
 
 .about .jobs {
-  width: 90vh;
+  width: 90vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
@@ -262,15 +267,17 @@
 }
 
 .projects {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .projects_bio-image {
-  height: 50vh;
+  height: 60vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../../images/snow.jpg");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../images/snow.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../../images/me.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../images/me.jpg");
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -292,7 +299,7 @@
 }
 
 .projects_items {
-  width: 60vh;
+  width: 90vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
@@ -390,8 +397,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../../images/snow.jpg");
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../images/snow.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../../images/me.jpg");
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../../images/me.jpg");
+  background-position: center;
   background-size: cover;
 }
 

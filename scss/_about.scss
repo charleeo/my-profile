@@ -1,10 +1,12 @@
 .about{
   padding-bottom: 2rem;
   &_bio-image{
-    height: 50vh;
+    min-height: 50vh;
     width: 100%;
-    background:linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)), url('../../images/snow.jpg');
+    background:linear-gradient(to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3)), url('../../images/me.jpg');
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +23,7 @@
     }
   }
   .jobs{
-    width:90vh;
+    width:90vw;
     margin: 2rem auto 0 auto;
     display: grid;
     grid-template-columns: 1fr;
